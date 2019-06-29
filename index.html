@@ -1,0 +1,91 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+	<!--	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+    <title>Kelulusan</title>
+	<style> body { background-color : #ffff88; }  </style>
+	<script type="text/javascript" src="cordova.js"></script>      
+	<script type="text/javascript"">
+	function onLoad()
+        {
+           document.addEventListener("deviceready", onDeviceReady, true);
+        }
+	function exitFromApp()
+         {
+            navigator.app.exitApp();
+         }
+	</script>
+</head>
+
+<body bgcolor="white">
+<div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+	    <img src="logo.png" height="44">
+		<a class="navbar-brand" href="#">STMIK Jayanusa</a>
+		<button onclick="exitFromApp()" class="btn btn-dark"><b>X</b></button>        
+	</div>    
+    </nav>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+	<div class="container">
+	    <a class="navbar-brand" href="#"></a>		
+		<input type="hidden"  id="mhs-input" value=1 >					  
+						<button class="btn btn-success" type="button" id="mhs-button">Mahasiswa</button>
+					  <input type="hidden"  id="dsn-input" value=2 >
+						<button class="btn btn-primary" type="button" id="dsn-button">Dosen</button>
+					  <input type="hidden"  id="mk-input" value=3 >
+						<button class="btn btn-secondary" type="button" id="mk-button">Mata Kuliah</button> 
+		<a class="navbar-brand" href="#"></a>
+
+	</div>    
+    </nav>
+
+
+</div>
+		
+		<nav class="navbar navbar-dark bg-light">
+		<div class="container" id=kett></div>
+		 <div class="container" id=ket></div>
+		 <div class="container" id=hdr></div>
+        <div class="container" id="movie-list"> 
+		</div>
+		</nav>
+ <br><p><p><br>   
+
+	<div class="fixed-bottom">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<div class="container">
+        
+	    <a class="navbar-brand" href="#"></a>
+		<a class="navbar-brand" href="#">1710036 - Jhoni Eka Putra - 2019</a>
+		<a class="navbar-brand" href="#"></a>
+        
+	   
+    </nav>
+	</div>
+	
+		
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+  src="js/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
